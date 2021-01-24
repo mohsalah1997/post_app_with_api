@@ -1,0 +1,115 @@
+.getPost {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: #242526;
+  justify-content: center;
+}
+
+.getPost__head {
+  display: flex;
+
+  margin: 1rem 0.5rem;
+  height: 7vh;
+  /* border: 1px solid white; */
+}
+.getPost__head__title {
+  color: white;
+  margin-left: 1rem;
+  margin-top: -0.1rem;
+}
+.getPost__head__img {
+  width: 7%;
+
+  border-radius: 100%;
+}
+
+.getPost__body__img {
+  height: 40vh;
+}
+
+.body-li {
+  width: 40%;
+
+  list-style: none;
+  display: flex;
+
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.body-li:hover {
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.02);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.02);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.02);
+  transition: all 200ms ease-in;
+  transform: scale(1.02);
+}
+.getPost__head__right {
+  /* display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start; */
+  /* border: 1px solid white; */
+  margin-top: 0.5rem;
+}
+.getPost__head__time {
+  color: white;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
+
+.getPost__detail {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.getPost__hr {
+  color: white;
+
+  width: 10rem;
+}
+
+.getPost__icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.getPost__icon div {
+  display: flex;
+  /* border: 1px solid white; */
+}
+.drawer__icon {
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+}
+.getPost__icon h6 {
+  color: gray;
+}
+
+.getPost__comment {
+  display: flex;
+
+  height: 5vh;
+
+  margin: 1rem 0.3rem 0.5rem 0.5rem;
+}
+.getPost__comment__input {
+  width: 100%;
+
+  border-radius: 20px;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #3a3b3c;
+  color: white;
+  padding-left: 0.5rem;
+}
+
+.getPost__comment__input:focus {
+  outline: none;
+}
